@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>San Valentín</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        h1 {
+            color: #e74c3c;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        .love-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .card:hover {
+            background-color: #f5f5f5;
+        }
+    </style>
+</head>
+<body>
+    <h1>¡Feliz Día de San Valentín!</h1>
+    <p>Querida Briyith,</p>
+    <p>En este día especial, quiero expresarle todo mi amor y cariño. <br> Usted es la persona que ilumina mi vida y llena mi corazón de alegría.</p>
+    <img class="love-image" src="https://i.pinimg.com/originals/e3/0a/c7/e30ac78045c3bda73ee77bc9c27ff596.gif" alt="Imagen de amor">
+    <p>Gracias por darme la oportunidad de estar con usted este día. Juntos, creamos momentos inolvidables <br> y construimos un amor que perdurará siempre.</p>
+    <p>La amo más de lo que las palabras pueden expresar.</p>
+    <p>Con todo mi corazón,</p>
+
+    <!-- Tarjetas interactivas -->
+    <div class="card" onclick="mostrarMensaje('Eres mi razón de ser. La amo mi terroncito de azúcar morena.')">Haz clic aquí </div>
+    <div class="card" onclick="mostrarMensaje('Cada día con usted es un regalo. Feliz San Valentín.')">Otro clic si</div>
+    <div class="card" onclick="mostrarMensaje('Usted es  mi todo. Siempre juntos, hoy y siempre.')">Y uno más...</div>
+
+    <script>
+        function mostrarMensaje(mensaje) {
+            alert(mensaje);
+        }
+    </script>
+</body>
+</html>
